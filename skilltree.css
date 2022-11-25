@@ -1,0 +1,57 @@
+body {
+    background-color: grey;
+    /* width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0; */
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "tree"
+        "sidebar";
+}
+
+#tree {
+    grid-area: tree;
+    background-color: white;
+}
+
+#sidebar {
+    grid-area: sidebar;
+    background-color: lightgray;
+}
+
+@media (orientation: landscape) {
+    body {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "tree sidebar";
+    }
+}
+
+.learned {
+    background-color: green;
+}
+
+.unlearned {
+    background-color: grey;
+}
+
+.skill {
+    margin: 5px;
+}
+
+.type {
+    background-color: white;
+    font-size: large;
+}
+
+.title {
+    background-color: white;
+    font-size: larger;
+}

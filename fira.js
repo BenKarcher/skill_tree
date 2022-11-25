@@ -1,0 +1,16 @@
+const fira = {
+    start: [0, 0],
+    solid_body: [4, 0],
+    sprint: [4, 1],
+    dodge: [4, 0],
+    fluid_stance: [4, 0],
+    focus: [4, 1],
+    rock_stance: [0, 0],
+    rock_throw: [0, 0],
+    make_glove: [-1, 0],
+    strike: [4, 1],
+    bow_shot: [4, 1],
+    range: [4, 1],
+    accuracy: [4, 1],
+    crit: [4, 1],
+}
