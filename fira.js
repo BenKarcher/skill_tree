@@ -1,5 +1,5 @@
 const fira = {
-    start: [0, 0],
+    start: [1, 0],
     solid_body: [4, 0],
     sprint: [4, 1],
     dodge: [4, 0],

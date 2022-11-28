@@ -1,5 +1,5 @@
 const yogi = {//-1=hidden 0=shown but not readable n=show first n levels. second number is learned
-    start: [0, 0],
+    start: [1, 0],
     solid_body: [4, 1],
     sprint: [4, 1],
     dodge: [4, 0],
@@ -13,4 +13,6 @@ const yogi = {//-1=hidden 0=shown but not readable n=show first n levels. second
     range: [0, 0],
     accuracy: [0, 0],
     crit: [0, 0],
+    wall_run: [3, 1],
+    launch_glove: [3, 1]
 }
